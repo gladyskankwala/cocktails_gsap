@@ -35,7 +35,7 @@ function NavBar() {
     <nav ref={navRef} >
       <div>
         <a href="#home" className="flex items-center gap-2">
-          <img src="/images/logo.png" alt="logo"/>
+          <img src="./images/logo.png" alt="logo"/>
           <p className="text-white font-bold text-lg">Velvet Pour</p>
         </a>
 
