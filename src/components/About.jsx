@@ -2,6 +2,11 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { SplitText } from 'gsap/SplitText'
+import aboutimg1 from '/images/abt1.png'
+import aboutimg2 from '/images/abt2.png'
+import aboutimg3 from '/images/abt3.png'
+import aboutimg4 from '/images/abt4.png'
+import aboutimg5 from '/images/abt5.png'
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -24,7 +29,7 @@ function About() {
             opacity: 0, duration:1, yPercent: 100, ease: 'expo.out', stagger: 0.02
          })
          .from('.top-grid div, .bottom-grid div', {
-            opacity: 0, duration: 1, ease: 'power1.inOut', stagger: 0.01,
+            opacity: 0, duration: 1, ease: 'power1.inOut', stagger: 0.07,
          }, '-=0.5')
     })
 
@@ -64,19 +69,19 @@ function About() {
             <div className="top-grid">
                 <div className="md:col-span-3">
                     <div className="noisy">
-                        <img src="/images/abt1.png" alt="grid-img-1" />
+                        <img src={aboutimg1} alt="grid-img-1" />
                     </div>
                 </div>
 
                 <div className="md:col-span-6">
                     <div className="noisy">
-                        <img src="/images/abt2.png" alt="grid-img-2" />
+                        <img src={aboutimg2} alt="grid-img-2" />
                     </div>
                 </div>
 
                 <div className="md:col-span-3">
                     <div className="noisy">
-                        <img src="/images/abt5.png" alt="grid-img-5" />
+                        <img src={aboutimg5} alt="grid-img-5" />
                     </div>
                 </div>
             </div>
@@ -84,13 +89,13 @@ function About() {
             <div className="bottom-grid">
                 <div className="md:col-span-8">
                     <div className="noisy">
-                        <img src="/images/abt3.png" alt="grid-img-3" />
+                        <img src={aboutimg3} alt="grid-img-3" />
                     </div>
                 </div>
 
                 <div className="md:col-span-4">
                     <div className="noisy">
-                        <img src="/images/abt4.png" alt="grid-img-4" />
+                        <img src={aboutimg4} alt="grid-img-4" />
                     </div>
                 </div>
             </div>

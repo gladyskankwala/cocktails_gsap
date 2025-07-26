@@ -41,20 +41,20 @@ function Art() {
                 <h2 className="will-fade">The ART</h2>
                 <div className="content">
                     <ul className="space-y-4 will-fade">
-                        <li className="flex items-center gap-2"><img src="/images/check.png" alt="check" /><p>Handpicked ingredients</p></li>
-                        <li className="flex items-center gap-2"><img src="/images/check.png" alt="check" /><p>Signature techniques</p></li>
-                        <li className="flex items-center gap-2"><img src="/images/check.png" alt="check" /><p>Bartending artistry in action</p></li>
-                        <li className="flex items-center gap-2"><img src="/images/check.png" alt="check" /><p>Freshly muddled flavors</p></li>
+                        <li className="flex items-center gap-2"><img src="./images/check.png" alt="check" /><p>Handpicked ingredients</p></li>
+                        <li className="flex items-center gap-2"><img src="./images/check.png" alt="check" /><p>Signature techniques</p></li>
+                        <li className="flex items-center gap-2"><img src="./images/check.png" alt="check" /><p>Bartending artistry in action</p></li>
+                        <li className="flex items-center gap-2"><img src="./images/check.png" alt="check" /><p>Freshly muddled flavors</p></li>
                     </ul>
 
                     <div className="cocktail-img">
-                        <img src="/images/under-img.jpg" alt="cocktail" className="ads-center masked-img size-full object-contain" />
+                        <img src="./images/under-img.jpg" alt="cocktail" className="ads-center masked-img size-full object-contain" />
                     </div>
                     <ul className="space-y-4 will-fade">
-                        <li className="flex items-center justify-star gap-2"><img src="/images/check.png" alt="check" /><p className="md:w-fit w-60">Perfectly balanced blends</p></li>
-                        <li className="flex items-center justify-star gap-2"><img src="/images/check.png" alt="check" /><p className="md:w-fit w-60">Garnished to perfection</p></li>
-                        <li className="flex items-center justify-star gap-2"><img src="/images/check.png" alt="check" /><p className="md:w-fit w-60">Ice-cold every time</p></li>
-                        <li className="flex items-center justify-star gap-2"><img src="/images/check.png" alt="check" /><p className="md:w-fit w-60">Expertly shaken & stirred</p></li>
+                        <li className="flex items-center justify-star gap-2"><img src="./images/check.png" alt="check" /><p className="md:w-fit w-60">Perfectly balanced blends</p></li>
+                        <li className="flex items-center justify-star gap-2"><img src="./images/check.png" alt="check" /><p className="md:w-fit w-60">Garnished to perfection</p></li>
+                        <li className="flex items-center justify-star gap-2"><img src="./images/check.png" alt="check" /><p className="md:w-fit w-60">Ice-cold every time</p></li>
+                        <li className="flex items-center justify-star gap-2"><img src="./images/check.png" alt="check" /><p className="md:w-fit w-60">Expertly shaken & stirred</p></li>
                     </ul>
                 </div>
 

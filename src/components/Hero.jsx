@@ -4,6 +4,9 @@ import { SplitText } from 'gsap/all';
 import { useRef } from 'react';
 import { useMediaQuery } from 'react-responsive'
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import imgLeftLeafHero from '/images/hero-left-leaf.png';
+import imgRightLeafHero from '/images/hero-right-leaf.png';
+import videoHero from '/videos/output.mp4';
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -79,12 +82,12 @@ function Hero() {
           <section id="hero" className="noisy">
             <h1 className="title">MOJITO</h1>
             <img 
-            src="/images/hero-left-leaf.png" 
+            src={imgLeftLeafHero}
             alt="left-leaf"
             className="left-leaf" />
 
             <img 
-            src="/images/hero-right-leaf.png" 
+            src={imgRightLeafHero}
             alt="right-leaf"
             className="right-leaf" />
 
@@ -111,7 +114,7 @@ function Hero() {
           <div className='video absolute inset-0'>
             <video 
             ref={videoRef}
-            src="/videos/output.mp4"
+            src={videoHero}
             muted
             playsInline
             preload='auto'
